@@ -9,7 +9,7 @@ and logs messages in real time, so it cannot index past content.
 You need the following environment variables defined:
 
 * `DATABASE_URL`: A PostgreSQL database URL, e.g. `postgres://localhost/tech404logs`
-* `SLACK_TOKEN`: Crate a bot integration and store the token in this variable.
+* `SLACK_TOKEN`: Create a bot integration and store the token in this variable.
 * `HOME_CHANNEL`: The main channel, which will be shown at the root path. Do not
   include the # hash mark. Usually "general."
 * `WEB_DOMAIN`: The domain and port (if other than 80) that the web app is
